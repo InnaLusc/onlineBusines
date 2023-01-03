@@ -1,0 +1,40 @@
+
+.footer {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #74C69D;
+}
+.socials {
+  display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center; 
+
+}
+.socialSVG{
+   height: 21px;
+   width: 21px;
+   margin: 10px;
+}
+.text__footer {}
+.text__span {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 125%;
+   color: white;
+}
+@media screen and (max-width: 768px)  {
+  .footer {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+}
+}
+
+
+
+
+
