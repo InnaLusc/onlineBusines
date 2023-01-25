@@ -5,6 +5,7 @@
    justify-content: space-around;
    align-items: center;
    background-color: #74C69D;
+   height: 125px;
 }
 .socials {
   display: flex;

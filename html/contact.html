@@ -6,7 +6,7 @@
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
  <link rel="stylesheet" href="../css/common.css" />  
 </head>
-<body class="body">
+<body class="body__contact">
      <header class="header">
       <div class="burger__on">
         <div class="logo__container">
@@ -45,37 +45,30 @@
           </div>
       </div>
      </header>
-  <main>
+  <main class="main__contact">
    <div class="container__contact">
-      <div class="kontact__text">Contact Us</div>
+      <span class="contact__span">Contact Us</span>
       <p class="contact__text">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.<br/></p>
-        <div class="container__contact2">
-         <div class="img__contakt">
-            <img src="../img/maps.svg" alt="maps">
-         </div>
-        </div>
-  </div>
-        <form action="#">
-         <div class="input__container"> 
+    </div> 
+    <div class="container__data">
+        <form class="contact__form" action="#">
           <div class="contact__name">
-             <span class="name">Name</span>
-             <input type="name" name="name" value="" placeholder="Name"/>
+             <span class="name__span">Name</span>
+             <input class="name" type="name" name="name" value="" placeholder="Name"/>
           </div>
           <div class="contact__email">
-             <span class="email">Email</span>
-             <input type="email" name="email" value="" placeholder="Email"/>
+             <span class="email__span">Email</span>
+             <input class="email" type="email" name="email" value="" placeholder="Email"/>
           </div>
           <div class="contact__message">
-            <span class="message">Message</span>
-            <input type="text" name="Message" value=""/> 
+            <span class="message__span">Message</span>
+            <input class="text" type="text" name="Message" value=""/> 
           </div>
-          <div class="contact__button">
-          <input type="submit" value="Submit" />
-          </div>
-        </div>
+          <input class="submit" type="submit"name="Submit" value="Submit" />
         </form>
+             <img src="../img/maps.svg" alt="maps" class="img__contact">
+  </div>
    </main>
- 
     <footer class="footer">
      <div class="socials">
       <img src="../img/f.svg" alt="Facebook" class="socialSVG">
