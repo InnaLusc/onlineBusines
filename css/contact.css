@@ -1,22 +1,19 @@
-.body__contact{
+.container__contact {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr auto; 
+    height:100%;
+    width: auto;
+    margin-bottom: 110px;
 }
-.main__contact{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    height: 100%;
-    margin-bottom: 90px;
-}
-.container__contact {
-    display: flex;
-    flex-direction: column;
+.contact__wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     align-items: center;
     padding: 0px;
     gap: 16px;
-    margin: 30px 0px 67px;
+    margin: 50px 0px;
 }
 .contact__span {
     font-weight: 700;
@@ -41,25 +38,17 @@
     gap: 30px;
     margin: 0px 130px ;
 }
-.contact__form{
-    grid-columns: 1 / 2 ;
-    grid-row: 1 /2 ;
+.data__contact{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1.5fr 0.5fr;
-    justify-content: space-between;
+    grid-column: 1 / 2 ;
+    grid-row: 1 /2;
+    grid-template-columns: 1fr nowrap;
+    grid-template-rows: 1fr 1fr 1.5fr 0.5fr nowrap;
+    gap: 10px;
     width: 100%;
-    height: 385px;
+    height: auto;
 }
-.contact__name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    width: 100%;
-    height: 79px;
-}
-.name__span {
+.data__name {
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
@@ -75,17 +64,9 @@
 }
 .name::placeholder {
     padding-left: 10px;
+    font-size: 18px;
 }
-.contact__email {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 16px; */
-    width: 100%;
-    height: 79px;
-}
-.email__span {
+.data__email{
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
@@ -101,35 +82,24 @@
 }
 .email::placeholder {
     padding-left: 10px;
+    font-size: 18px;
 }
-.contact__message{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 16px; */
-    width: 100%;
-    height: 116px;
-}
-.message__span {
+.data__message {
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
     color: #000000;
 }
-.text {
+.data__text {
     box-sizing: border-box;
     width: 100%;
     height: 150px;
     background: #EEEEEE;
     border: 1px solid #000000;
     border-radius: 5px;
+    gap: 16px;
 }
-.contact__button {
-
-}
-.submit {
-    justify-self: end;
+.submit{
     background: #212529;
     border-radius: 5px;
     font-weight: 400;
@@ -140,25 +110,24 @@
     width: 100%;
     height: 48px;
 }
-
-.img__contact{
-    grid-columns: 2 / 3;
+.img__contact {
+    grid-column: 2 / 3;
     grid-row: 1 /2 ;
     width: 100%;
     height: auto;
 }
 @media screen and (max-width: 768px)  {
-    .container__data {
+    .contact__wrapper{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    .contact__form{
-        grid-columns: 1 / 2 ;
-        grid-row: 2 /3;
+    .data__contact{
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
     }
     .img__contact{
-        grid-columns: 1 / 2;
-        grid-row: 1 /2 ;
+        grid-column: 1 / 4;
+        grid-row: 1 / 2 ;
     }
 }
