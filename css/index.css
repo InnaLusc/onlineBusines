@@ -1,6 +1,4 @@
 .welcome {
-    width: 100%;
-    height: auto;
     background-color: #74C69D;
     color: white;
     padding: 0 0 25px;
@@ -55,13 +53,6 @@
     line-height: 125%;
     background-color:white; 
 }
-.img__welcome {
-    display: grid;
-    grid-column: 2 / 3;
-    grid-row:1 / 2;    
-    height: 100%;
-    width: auto;
-}
 .partners {}
 .partners__conteiner {
     display: flex;
@@ -70,7 +61,7 @@
     justify-content: center;
     padding: 0px;
     gap: 55px;
-    margin: 60px 140px 0px 141px;  
+    margin: 60px 140px 30px 141px;  
 }
 .partners__wrapper {
     display: flex;
@@ -326,7 +317,6 @@
     .welcome__wrapper {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
-
     }
     .welcome__image {
         grid-column: 1 / 2;
