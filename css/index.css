@@ -8,8 +8,8 @@
     display: grid;
     grid-template-columns: 1fr 1.8fr;
     grid-template-rows: 1fr;
-    gap:25px;
-    padding: 30px 80px  ;
+    gap: 25px;
+    padding: 30px 80px;
 }
 .welcome__wrapper {
     display: grid;
@@ -20,7 +20,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 0px;
-    gap:15px;
+    gap: 15px;
 }
 .welcome__span{
    font-style: normal;
@@ -105,8 +105,8 @@
     width: 100%;
 }
 .partners__button{
-    height:48px;
-    width:170px;
+    height: 48px;
+    width: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height:125%;
@@ -147,8 +147,8 @@
     mix-blend-mode: normal;
 }
 .lore__button {
-    height:48px;
-    width:170px;
+    height: 48px;
+    width: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height:125%;
@@ -202,8 +202,8 @@
     mix-blend-mode: normal;
     }
 .dolor__button {
-    height:48px;
-    width:170px;
+    height: 48px;
+    width: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height:125%;
@@ -228,13 +228,13 @@
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
-    gap:45px;
+    gap: 45px;
 }
 .team__wrapper {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    gap:16px;
+    gap: 16px;
 }
 .team__span {
    font-weight: 700;
@@ -266,7 +266,7 @@
     grid-template-rows: 1fr ;
     align-items: center;
     justify-content:center;
-    gap:47px;
+    gap: 47px;
 }
 .piple__item {
     display: grid;
@@ -298,8 +298,8 @@
     color: rgba(33, 37, 41, 0.75);
 }
 .team__button{
-    height:48px;
-    width:170px;
+    height: 48px;
+    width: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height:125%;
