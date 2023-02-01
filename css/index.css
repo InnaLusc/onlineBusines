@@ -11,10 +11,10 @@
     gap: 25px;
     padding: 30px 80px;
 }
-.welcome__wrapper {
-    display: grid;
+.welcome__wrapper{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    display: grid;
     grid-template-columns: 0.8fr;
     grid-template-rows: 0.5fr;
     align-items: flex-start;
@@ -30,19 +30,19 @@
    letter-spacing: 5px;
    text-transform: uppercase;
 }
-.welcome__h1 {
+.welcome__h1{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
 }
-.welcome__p {
+.welcome__p{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 125%;
 }
-.welcome__button {
+.welcome__button{
     width: 150px;
     height: 35px;
     border-radius: 5px;
@@ -53,8 +53,7 @@
     line-height: 125%;
     background-color:white; 
 }
-.partners {}
-.partners__conteiner {
+.partners__conteiner{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,13 +62,13 @@
     gap: 55px;
     margin: 60px 140px 30px 141px;  
 }
-.partners__wrapper {
+.partners__wrapper{
     display: flex;
     flex-flow: column;
     justify-content: center;
     gap: 16px;
 }
-.partners__span {
+.partners__span{
     display: flex;
     justify-content: center;
     font-weight: 700;
@@ -80,21 +79,21 @@
     text-transform: uppercase;
     color: #74C69D;
 }
-.partners__h2 {
+.partners__h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
     text-align: center;
     color: #000000;
 }
-.partners__p {
+.partners__p{
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
     text-align: center;
     color: #000000;
 }
-.partners__image {
+.partners__image{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
@@ -114,10 +113,10 @@
     background-color: #212529;
     border-radius: 5px; 
 }
-.lore {
+.lore{
     padding: 30px;
 }
-.lore__conteiner {
+.lore__conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -134,12 +133,12 @@
     gap: 25px;
     align-content: center;
 }
-.lore__h3 {
+.lore__h3{
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
 }
-.lorem__p {
+.lorem__p{
     font-weight: 400;
     font-size: 15px;
     line-height: 125%;
@@ -156,7 +155,7 @@
     background-color: #212529;
     border-radius: 5px; 
 }
-.lore__image {
+.lore__image{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     align-items: center;
@@ -164,14 +163,14 @@
     width: 100%;
     height: auto;
 }
-.lore__img {
+.lore__img{
     width: 95%;
     height: auto;
 }
-.dolor {
+.dolor{
     padding: 30px;
 }
-.dolor__container {
+.dolor__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -211,18 +210,14 @@
     background-color: #212529;
     border-radius: 5px; 
 }
-.dolor__image__ {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-.dolor__img {
+.dolor__img{
     width: 95%;
     height: auto;
 }
 .team{
     padding: 30px;
 }
-.team__conteiner {
+.team__conteiner{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -230,13 +225,13 @@
     align-items: center;
     gap: 45px;
 }
-.team__wrapper {
+.team__wrapper{
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     gap: 16px;
 }
-.team__span {
+.team__span{
    font-weight: 700;
    font-size: 16px;
    line-height: 125%;
@@ -246,7 +241,7 @@
    text-transform: uppercase;
    color: #74C69D;
 }
-.team__h5 {
+.team__h5{
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;   
@@ -260,15 +255,15 @@
     text-align: center;
     color: #000000;
 }
-.team__image {
+.team__image{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 47px;
 }
-.piple__item {
+.piple__item{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6fr 1fr 1fr;
@@ -279,18 +274,18 @@
     box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-.cart__image {
+.cart__image{
     width: 100%;
     height: auto;
 }
-.name__name {
+.name__name{
     text-align: center;
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
     color: #212529;
     }
-.work__work {
+.work__work{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
@@ -302,23 +297,23 @@
     width: 170px;
     font-weight: 400;
     font-size: 20px;
-    line-height:125%;
+    line-height: 125%;
     color: #FFFFFF;
     background-color: #212529;
     border-radius: 5px; 
     margin: 0 auto; 
 }
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
     .welcome__container{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    .welcome__wrapper {
+    .welcome__wrapper{
         grid-column: 1 / 4;
         grid-row: 2 / 3;
     }
-    .welcome__image {
+    .welcome__image{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
@@ -328,20 +323,20 @@
         align-items: center;
         gap: 16px;  
     }
-    .partners__wrapper {
+    .partners__wrapper{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 45px; 
     }
-    .partners__image {
+    .partners__image{
        display: flex;
        flex-flow: column;
        justify-content: column;
-       align-items:center;
+       align-items: center;
        gap: 55px;
     }
-    .lore__conteiner {
+    .lore__conteiner{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -353,7 +348,7 @@
         grid-column: 1 / 2;
         grid-row: 2 / 2;
     }
-    .lore__image {
+    .lore__image{
         grid-column: 2 / 1;
         grid-row: 1 / 2;
     }
@@ -362,12 +357,12 @@
        grid-template-rows: 1fr auto;
        }
     .dolor__wrapper{
-       grid-column: 1/2;
-       grid-row: 2/3;
+       grid-column: 1 / 2;
+       grid-row: 2 / 3;
        }
     .dolor__image{
-        grid-column: 1/2;
-        grid-row: 1/2;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
        }
        .team__conteiner {
         display: grid;
@@ -380,7 +375,7 @@
         padding: 0px;
         gap: 35px;
     }
-    .team__image {
+    .team__image{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         padding: 0px;
