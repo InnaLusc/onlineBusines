@@ -51,7 +51,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
-    background-color:white; 
 }
 .partners__conteiner{
     display: flex;
@@ -307,7 +306,6 @@
     .welcome__container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
     }
     .welcome__wrapper{
         grid-column: 1 / 4;
